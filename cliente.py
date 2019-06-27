@@ -48,7 +48,7 @@ if __name__ == '__main__':
  processo.start()
  print('')
   
- msg=input()
+ msg=input("antes de enviar uma mensagem, por favor informe seu nome!\n")
  while True:
   send.put(msg)
   msg=input()
