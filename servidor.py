@@ -49,7 +49,7 @@ if __name__ == '__main__':
  print('Iniciando o servidor de chat!')
  print('Aguarde alguém conectar!')
   
- msg=input()
+ msg=input("antes de enviar uma mensagem, por favor informe seu nome!\n")
  while True:
   send.put(msg)
   msg=input()
